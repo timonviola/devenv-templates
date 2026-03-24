@@ -2,7 +2,10 @@
 
 Usage
 
-`nix flake init -t github:timon/templates#rust`
+1. `nix flake init -t github:timonviola/devenv-templates#python`
+2. `devenv init` # follow instructions
+3. `direnv allow`
+
 
 
 Should you use it?

@@ -11,13 +11,13 @@
 
   git-hooks.package = pkgs.prek;
   git-hooks.hooks = {
-    ruff.format = {
+    ruff-format = {
       enable = true;
       entry = "ruff format --fix";
       language = "system";
       stages = [ "pre-commit" ];
     };
-    ruff.check = {
+    ruff = {
       enable = true;
       entry = "ruff check .";
       language = "system";
